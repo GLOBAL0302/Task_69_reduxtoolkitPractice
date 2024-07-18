@@ -11,7 +11,7 @@ const Shows = () => {
     dispatch(createFetchShows());
   }, [dispatch]);
   return (
-    <div>
+    <div className="">
       <div className="text-black bg-white p-3" style={{ overflow: 'auto' }}>
         {options.map((item) => (
             <div key={item.id}>
